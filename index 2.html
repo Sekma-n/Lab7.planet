@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planetary Data Comparison | Solar System Facts</title>
+  <style>
+    body {
+      font-family: "Poppins", Arial, sans-serif;
+      background: radial-gradient(circle at top, #0b0e26, #060818 80%);
+      color: #e8ecff;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      background: url('https://www.transparenttextures.com/patterns/stardust.png');
+      opacity: 0.2;
+      z-index: -1;
+    }
+    header {
+      text-align: center;
+      padding: 3em 1em;
+      background: linear-gradient(180deg, #10163a, #0b0e26);
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+      border-bottom: 2px solid #3540a5;
+    }
+    header h1 {
+      font-size: 2.5em;
+      color: #8db6ff;
+      text-shadow: 0 0 15px #3a5ff7;
+      letter-spacing: 1px;
+    }
+    header .subtitle {
+      color: #b0bbff;
+      font-style: italic;
+    }
+    #planet-table {
+      margin: 3em auto;
+      width: 90%;
+      max-width: 1000px;
+      border-collapse: collapse;
+      background: rgba(20, 25, 60, 0.85);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 0 25px rgba(64, 78, 207, 0.3);
+    }
+    #planet-table th, #planet-table td {
+      padding: 1.2em;
+      text-align: center;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    #planet-table th {
+      background: #2430a3;
+      color: #fff;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    #planet-table tr:nth-child(even) {
+      background: rgba(40, 46, 90, 0.6);
+    }
+    #planet-table tr:hover {
+      background: rgba(58, 80, 200, 0.7);
+      transform: scale(1.01);
+      transition: all 0.3s ease;
+    }
+    #planet-table td:first-child {
+      font-weight: bold;
+      color: #8da9ff;
+    }
+    .images {
+      text-align: center;
+      padding: 2em;
+    }
+    .images h2 {
+      font-size: 1.8em;
+      color: #89a8ff;
+      text-shadow: 0 0 10px #4b66ff;
+    }
+    .planet-images {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-top: 1.5em;
+    }
+    .planet-images img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      border: 3px solid #3a52f0;
+      box-shadow: 0 0 20px rgba(80, 100, 255, 0.6);
+      object-fit: cover;
+      transition: transform 0.5s ease, box-shadow 0.5s ease;
+    }
+    .planet-images img:hover {
+      transform: rotate(15deg) scale(1.15);
+      box-shadow: 0 0 40px rgba(100, 150, 255, 0.8);
+    }
+    footer {
+      text-align: center;
+      padding: 2em 1em;
+      background: #0b0e26;
+      border-top: 2px solid #3540a5;
+      color: #b5bcff;
+      font-size: 0.9em;
+    }
+    footer a {
+      color: #5da8ff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+    .star {
+      position: absolute;
+      width: 2px;
+      height: 2px;
+      background: white;
+      border-radius: 50%;
+      animation: twinkle 4s infinite ease-in-out;
+    }
+    @keyframes twinkle {
+      0%, 100% { opacity: 0.3; transform: scale(0.8); }
+      50% { opacity: 1; transform: scale(1.5); }
+    }
+    @media (max-width: 768px) {
+      header h1 { font-size: 2em; }
+      #planet-table th, #planet-table td { padding: 0.7em; font-size: 0.9em; }
+      .planet-images img { width: 130px; height: 130px; }
+    }
+  </style>
+</head>
+<body>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      for (let i = 0; i < 80; i++) {
+        const star = document.createElement("div");
+        star.className = "star";
+        star.style.top = Math.random() * 100 + "%";
+        star.style.left = Math.random() * 100 + "%";
+        star.style.animationDelay = Math.random() * 4 + "s";
+        star.style.animationDuration = 2 + Math.random() * 3 + "s";
+        document.body.appendChild(star);
+      }
+    });
+  </script>
+
+  <header>
+    <h1>Solar System Planetary Facts</h1>
+    <p class="subtitle">Comparing four fascinating worlds from NASA’s Planetary Fact Sheet</p>
+  </header>
+
+  <main>
+    <section>
+      <h2 style="text-align:center; color:#a9b8ff;">Planetary Data Overview</h2>
+      <table id="planet-table">
+        <thead>
+          <tr>
+            <th>Property</th>
+            <th>Earth 🌍</th>
+            <th>Mars 🔴</th>
+            <th>Jupiter 🪐</th>
+            <th>Neptune 🌊</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Mass (10<sup>24</sup> kg)</td><td>5.97</td><td>0.642</td><td>1898</td><td>102</td></tr>
+          <tr><td>Diameter (km)</td><td>12,756</td><td>6,792</td><td>142,984</td><td>49,528</td></tr>
+          <tr><td>Mean Distance from Sun (10<sup>6</sup> km)</td><td>149.6</td><td>227.9</td><td>778.6</td><td>4495.1</td></tr>
+          <tr><td>Length of Day (hours)</td><td>24.0</td><td>24.7</td><td>9.9</td><td>16.1</td></tr>
+          <tr><td>Gravity (m/s²)</td><td>9.8</td><td>3.7</td><td>23.1</td><td>11.0</td></tr>
+          <tr><td>Average Temperature (°C)</td><td>15</td><td>-65</td><td>-110</td><td>-200</td></tr>
+          <tr><td>Number of Moons</td><td>1</td><td>2</td><td>79</td><td>14</td></tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="images">
+      <h2>Explore the Planets</h2>
+      <div class="planet-images">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg" alt="Earth">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/OSIRIS_Mars_true_color.jpg" alt="Mars">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Jupiter.jpg" alt="Jupiter">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Neptune_Full.jpg" alt="Neptune">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Data Source: <a href="https://nssdc.gsfc.nasa.gov/planetary/factsheet/" target="_blank">NASA Planetary Fact Sheet</a></p>
+    <p>&copy; 2025 Solar System Data Project | Designed by Sekang 🌠</p>
+  </footer>
+</body>
+</html>
