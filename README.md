@@ -24,7 +24,7 @@ Data gathered from [NASA Planetary Fact Sheet](https://nssdc.gsfc.nasa.gov/plane
 ## 🧑‍💻 Author
 **Sekang Segotso**  
 Front-End Developer & Creative Web Designer  
-📧 your.email@example.com  
+📧 sekang@obriangroup.com  
 🌐 [[GitHub Portfolio (https://sekma-n.github.io/Portfolio-index.html-hero/)]
 
 ---
