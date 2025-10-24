@@ -25,7 +25,7 @@ Data gathered from [NASA Planetary Fact Sheet](https://nssdc.gsfc.nasa.gov/plane
 **Sekang Segotso**  
 Front-End Developer & Creative Web Designer  
 📧 sekang@obriangroup.com 
-🌐 [GitHub Profile or Portfolio Link]
+🌐 [[GitHub Portfolio Link](https://sekma-n.github.io/Portfolio-index.html-hero/)]
 
 ---
 
