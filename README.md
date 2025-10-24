@@ -17,7 +17,7 @@ This project demonstrates front-end web design skills using **pure HTML, CSS, an
 ---
 
 ## 🌍 Data Source
-Data gathered from [NASA Planetary Fact Sheet](https://nssdc.gsfc.nasa.gov/planetary/factsheet/).
+Data gathered from [NASA Planetary Fact Sheet]([https://nssdc.gsfc.nasa.gov/planetary/factsheet/](http://www.mathaddict.net/ellipseplanet.pdf)).
 
 ---
 
