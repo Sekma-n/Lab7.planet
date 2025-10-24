@@ -24,8 +24,8 @@ Data gathered from [NASA Planetary Fact Sheet](https://nssdc.gsfc.nasa.gov/plane
 ## 🧑‍💻 Author
 **Sekang Segotso**  
 Front-End Developer & Creative Web Designer  
-📧 sekang@obriangroup.com  
-🌐 [[GitHub Portfolio (https://sekma-n.github.io/Portfolio-index.html-hero/)]
+📧 sekang@obriangroup.com 
+🌐 [GitHub Profile or Portfolio Link]
 
 ---
 
@@ -33,7 +33,7 @@ Front-End Developer & Creative Web Designer
 
 ### MIT License
 
-Copyright (c) 2025 **Sekang Segotso**
+Copyright (c) 2025 **S. Segotso**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -44,6 +44,9 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 ---
 
 ## 🛰️ Project Preview
+
+Below is a preview image of the Planetary Data Lab project, showcasing the responsive data table and animated solar system background.
+
 ![Planetary Table Preview](https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg)
 
 ---
