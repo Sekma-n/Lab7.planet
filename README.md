@@ -17,7 +17,7 @@ This project demonstrates front-end web design skills using **pure HTML, CSS, an
 ---
 
 ## 🌍 Data Source
-Data gathered from [NASA Planetary Fact Sheet]([[https://nssdc.gsfc.nasa.gov/planetary/factsheet/](http://www.mathaddict.net/ellipseplanet.pdf)](http://www.mathaddict.net/ellipseplanet.pdf)).
+Data gathered from [NASA Planetary Fact Sheet]([[https://nssdc.gsfc.nasa.gov/planetary/factsheet/](http://www.mathaddict.net/ellipseplanet.pdf)](http://www.mathaddict.net/ellipseplanet.pdf)](https://science.nasa.gov/solar-system/planets/#:~:text=Mercury%20is%20the%20planet%20nearest,in%20the%20inner%20solar%20system.).
 
 ---
 
