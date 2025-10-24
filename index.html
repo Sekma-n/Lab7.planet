@@ -196,5 +196,61 @@
     <p>Data Source: <a href="https://nssdc.gsfc.nasa.gov/planetary/factsheet/" target="_blank">NASA Planetary Fact Sheet</a></p>
     <p>&copy; 2025 Solar System Data Project | Designed by Sekang 🌠</p>
   </footer>
-</body>
+<!-- WhatsApp Floating Button -->
+<div id="whatsapp-button">
+  <a href="https://wa.me/27614548884" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+      <path d="M16 .396C7.2.396.002 7.593.002 16.396c0 2.884.756 5.698 2.204 8.18L.098 31.604l7.252-2.07a15.91 15.91 0 0 0 8.65 2.48c8.8 0 15.998-7.198 15.998-16.001 0-8.802-7.198-16-15.998-16zm0 29.202c-2.92 0-5.77-.788-8.256-2.28l-.592-.352-4.304 1.228 1.228-4.29-.384-.63A13.372 13.372 0 0 1 2.6 16.396c0-7.52 6.122-13.642 13.642-13.642 7.52 0 13.642 6.122 13.642 13.642S23.52 29.598 16 29.598zm7.508-10.27c-.412-.206-2.436-1.206-2.812-1.344-.376-.138-.65-.206-.924.206-.274.412-1.062 1.344-1.3 1.618-.238.274-.482.308-.894.102-.412-.206-1.742-.642-3.322-2.046-1.228-1.094-2.054-2.448-2.292-2.86-.238-.412-.026-.634.18-.84.184-.182.412-.476.618-.714.206-.238.274-.412.412-.686.138-.274.07-.514-.034-.72-.102-.206-.924-2.222-1.27-3.044-.334-.802-.676-.692-.924-.706-.238-.012-.514-.014-.788-.014s-.72.102-1.098.514c-.376.412-1.438 1.406-1.438 3.43 0 2.024 1.47 3.974 1.674 4.246.206.274 2.894 4.422 7.008 6.2 4.114 1.778 4.114 1.186 4.854 1.112.74-.074 2.436-.99 2.78-1.948.344-.958.344-1.782.238-1.948-.106-.166-.376-.27-.788-.476z"/>
+    </svg>
+  </a>
+</div>
+
+<style>
+#whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+
+#whatsapp-button a {
+  background-color: #25d366;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: bounce 3s ease-in-out infinite;
+}
+
+/* Hover effect */
+#whatsapp-button a:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+}
+
+/* WhatsApp Icon */
+#whatsapp-button svg {
+  width: 30px;
+  height: 30px;
+  fill: white;
+}
+
+/* Bounce Animation */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-8px);
+  }
+  60% {
+    transform: translateY(-4px);
+  }
+}
+</style>
+<!-- End WhatsApp Floating Button --></body>
 </html>
