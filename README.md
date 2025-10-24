@@ -47,8 +47,8 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 
 Below is a preview image of the Planetary Data Lab project, showcasing the responsive data table and animated solar system background.
 
-![Planetary Table Preview][(https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg)](https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/960px-The_Earth_seen_from_Apollo_17.jpg)
-
+![[Planetary Table Preview][(https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg)](https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/960px-The_Earth_seen_from_Apollo_17.jpg)
+](https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/960px-The_Earth_seen_from_Apollo_17.jpg)
 ---
 
 ### 🌟 “Exploring the cosmos, one line of code at a time.”
